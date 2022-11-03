@@ -1,0 +1,58 @@
+.timepicker-container .timepicker {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  font: normal 13px "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  -moz-box-shadow: 0 1px 5px #dfdfdf;
+  -webkit-box-shadow: 0 1px 5px #dfdfdf;
+  box-shadow: 0 1px 5px #dfdfdf;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  top: 40px;
+  position: absolute;
+  display: none;
+  z-index: 100;
+}
+.timepicker-container .timepicker th {
+  text-align: center;
+  color: #333;
+  padding: 5px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+.timepicker-container .timepicker td {
+  padding: 3px 6px;
+  color: #333;
+  margin: 0;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #e4e4e4;
+}
+.timepicker-container .timepicker td:hover {
+  background-color: #f0f0f0;
+  color: #929292;
+  -moz-box-shadow: inset 0 0 5px 1px #dfdfdf;
+  -webkit-box-shadow: inset 0 0 5px 1px #dfdfdf;
+  box-shadow: inset 0 0 5px 1px #dfdfdf;
+}
+.timepicker-container  input {
+  padding: 10px 12px 8px 30px;
+  background: url("http://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/clock-32.png")
+    no-repeat -5px 5px;
+  border: 0;
+  width: 85px;
+  font: 400 18px/100% Georgia, Times, "Times New Roman", serif;
+  color: #222;
+}
+table input::-moz-focus-inner {
+  border: 0;
+}
+*:focus {
+  outline: 0;
+}
